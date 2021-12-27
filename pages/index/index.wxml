@@ -1,0 +1,23 @@
+ <view class="container">
+  <view class="searchBox">
+  <navigator url="/pages/search/search">
+    <icon type="search" size="15"></icon>搜索
+  </navigator>
+  </view>
+  <view class="bannerBox">
+    <swiper class="banner" indicator-dots="true" indicator-color="#bbb" indicator-active-color="white" autoplay="true"
+    circular="true" interval="2000">
+    <block wx:for="{{bannerData}}" wx:key='index'>
+      <swiper-item>
+        <image src="{{item.banner_img}}"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  </view>
+  <view class="main">
+    <navigator url="">稻香园</navigator>
+    <navigator>沁香园</navigator>
+    <navigator>友谊餐厅</navigator>
+  </view>
+ </view>
+

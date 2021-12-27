@@ -1,0 +1,64 @@
+/**index.wxss**/
+.container{
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.searchBox {
+  width: 100%;
+  height: 5vh;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+.searchBox navigator{
+  width: 95%;
+  height: 100%;
+  border-radius: 15px;
+  margin: 0 ;
+  background-color: #fafafa;
+  color: #aaa;
+  letter-spacing: 5px;
+  text-emphasis: nowrap;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.bannerBox {
+  width: 100%;
+  height: 33vh;
+  background-color: yellow;
+}
+.bannerBox image{
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.main{
+  width: 100%;
+  height: 62vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.main navigator{
+  width: 85%;
+  height: 12vh;
+  margin: 3%;
+  font-size: 20px;
+  letter-spacing: 10px;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafa;
+  border-radius: 10px;
+  color: #444;
+  transition: all .3s;
+}
+.main navigator:hover{
+  background-color: #ccc;
+}

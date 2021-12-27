@@ -1,0 +1,34 @@
+/* pages/personal/personal.wxss */
+.container{
+  padding: 0;
+}
+.avatar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 750rpx;
+  height: 300rpx;
+  background:linear-gradient(
+    to right bottom,
+    rgba(214,220,238),
+    rgba(237,237,237)
+  );
+  color: #393837;
+}
+.avatar .userinfo-avatar {
+  overflow: hidden;
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  margin-bottom: 30rpx;
+}
+.info .section{
+  display: flex;
+  justify-content: space-between;
+  margin: 15rpx 30rpx;
+  border-bottom: 1px solid #D4DFF4;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 36rpx;
+}

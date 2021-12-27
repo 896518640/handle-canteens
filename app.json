@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/order/order",
+    "pages/userInfo/userInfo",
+    "pages/search/search"
+  ],
+  "tabBar": {
+    "color": "#C1C1C0",
+    "selectedColor": "#323231",
+    "backgroundColor": "#eee",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./public/img/首页2.png",
+        "selectedIconPath": "./public/img/首页1.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "./public/img/订单2.png",
+        "selectedIconPath": "./public/img/订单1.png"
+      },
+      {
+        "pagePath": "pages/userInfo/userInfo",
+        "text": "个人",
+        "iconPath": "./public/img/我的2.png",
+        "selectedIconPath": "./public/img/我的1.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "掌上食堂",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

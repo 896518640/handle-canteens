@@ -1,0 +1,23 @@
+<!--pages/order/order.wxml-->
+<view class="container">
+  <view class="order">
+    <view class="orderID">订单号：89889898989</view>
+    <view class="orderInfo">订单信息：绵阳米粉 *1 16元 </view>
+    <navigator class="buy">结算</navigator>
+  </view>
+  <view class="order">
+    <view class="orderID">订单号：89889898989</view>
+    <view class="orderInfo">订单信息: 酸菜鱼 *1 12元</view>
+    <navigator class="buy">结算</navigator>
+  </view>
+  <view class="order">
+    <view class="orderID">订单号：898898123131 </view>
+    <view class="orderInfo">订单信息: 麻辣香锅 *1 15元</view>
+    <navigator class="buy">结算</navigator>
+  </view>
+  <view class="order">
+    <view class="orderID">订单号：89889898989</view>
+    <view class="orderInfo">订单信息: 四川冒菜 *1 15元</view>
+    <navigator class="buy">结算</navigator>
+  </view>
+</view>
